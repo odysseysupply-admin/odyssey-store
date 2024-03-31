@@ -1,8 +1,8 @@
-import { TransactionBaseService } from "@medusajs/medusa";
-import OnboardingRepository from "../repositories/onboarding";
-import { OnboardingState } from "../models/onboarding";
-import { EntityManager, IsNull, Not } from "typeorm";
-import { UpdateOnboardingStateInput } from "../types/onboarding";
+import { TransactionBaseService } from '@medusajs/medusa';
+import { EntityManager, IsNull, Not } from 'typeorm';
+import { OnboardingState } from '../models/onboarding';
+import OnboardingRepository from '../repositories/onboarding';
+import { UpdateOnboardingStateInput } from '../types/onboarding';
 
 type InjectedDependencies = {
   manager: EntityManager;
