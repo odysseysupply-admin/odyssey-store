@@ -25,4 +25,4 @@ build
 !.yarn/sdks
 !.yarn/versions
 
-/supabase
+supabase
